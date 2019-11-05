@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Question 4</title>
+    
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello World</h1>
+    </header>
+    <section>
+        <p id="text">
+            Earth is the third planet from the Sun and the only 
+            astronomical object known to harbor life. According 
+            to radiometric dating and other sources of evidence, 
+            Earth formed over 4.5 billion years ago. 
+            Earth's gravity interacts with other objects in space, 
+            especially the Sun and the Moon, Earth's only natural satellite. 
+            Earth revolves around the Sun in 365.26 days, a period known as
+            an Earth year. During this time, Earth rotates about 
+            its axis about 366.26 times.
+        </p>
+
+            <br><br>
+
+            <img id="earth" src="earth.jpg" width="300px" height="300px">
+            <img id="sun" src="sun.jpg" width="300px" height="300px">
+    </section>
+
+    <button id="button" onclick="myFunction()">Click me</button>
+
+    <script>
+        function myFunction() {
+            document.getElementById("earth").style.display="none";
+            document.getElementById("text").style.display="inline-block";
+            document.getElementById("text").style.width= "30%";
+            document.getElementById("text").style.cssFloat="right";
+            document.getElementById("sun").style.width="300px";
+            document.getElementById("sun").style.height="300px";
+
+
+        }
+    </script>
+</body>
+</html>
